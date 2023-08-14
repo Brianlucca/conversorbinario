@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="decimal.css" />
+    <link rel="stylesheet" href="arithmetic.css" />
+    <link rel="stylesheet" href="cabeçalho.css" />
+    <title>Binary</title>
+    <link rel="icon" href="titulo binario.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="calculadora logo.png" />
+      <nav class="cabeçalho">
+        <ul>
+          <li><a href="https://youtu.be/Y0dTHv65yxU">BINARY</a></li>
+          <li><a href="https://youtu.be/Sg7NT-Ab7eA">ARITHMETIC</a></li>
+          <li>
+            <a
+              href="https://instagram.com/brian_luccaa?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
+              ><img src="instagram.png" alt="instagram"
+            /></a>
+          </li>
+          <li>
+            <a href=""><img src="discordia (1).png" alt="discord" /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1 class="introdução">
+          Here you can convert decimal and binary <br />and perform trivial math
+          accounts.
+        </h1>
+      </section>
+
+      <section class="inputDecimal">
+        <ul>
+          <li><img src="codigo-binario (1).png" /></li>
+          <li><h2>Decimal > Binary</h2></li>
+          <li><label for="numeroDecimal">Conversion</label></li>
+          <li>
+            <input
+              type="number"
+              name="numeroDecimal"
+              id="numeroDecimal"
+              placeholder="Decimal"
+            />
+          </li>
+          <button class="buttonDecimal" onclick="converter()">Convert</button>
+          <li><p class="resultadoDecimal" id="resultado">Result</p></li>
+        </ul>
+      </section>
+
+      <section class="inputarithmetic">
+        <ul>
+          <li><img src="calculadora.png" /></li>
+          <li><h2>Calculator</h2></li>
+          <li><label for="numero1">First Number</label></li>
+          <li>
+            <input
+              type="number"
+              name="number"
+              id="numero1"
+              placeholder="Number"
+            />
+          </li>
+
+          <li><laber for="numero2">Second Number</laber></li>
+          <li>
+            <input
+              type="number"
+              name="number2"
+              id="numero2"
+              placeholder="Number"
+            />
+          </li>
+
+          <li><label for="operacao">Operation</label></li>
+          <select name="operacao" id="operacao">
+            <option value="soma">Sum</option>
+            <option value="subtracao">Subtraction</option>
+            <option value="divisao">Division</option>
+            <option value="multiplicacao">Multiplication</option>
+          </select>
+          <button class="buttoncalculadora" onclick="calcular()">
+            Calculate
+          </button>
+          <li>
+            <p class="resultadocalculadora" id="resultadocalculadora">Result</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
