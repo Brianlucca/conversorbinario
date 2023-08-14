@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "poppins", sans-serif;
+}
+
+body hr{
+    box-shadow: px px px;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 10px;  /*espaçamento entre os objetos*/
+}
+
+li img{
+    width: 30px;
+}
+
+@media (max-width: 480px){
+    li img{
+        display: none;
+    }
+}
+
+.cabeçalho{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 40px;
+    padding: 8px;
+    margin-top: -60px;
+}
+
+@media (max-width: 480px){
+    .cabeçalho{
+        margin-top: -50px;
+    }
+}
+
+.cabeçalho a{
+    color: rgba(255, 81, 0, 0.76);
+    text-decoration: none;
+}
+
+.cabeçalho a:hover{
+    color: rgb(2, 78, 241);
+}
+
+.logo {
+    width: 40px;
+    align-items: center;
+    margin-top: 10px;
+    padding-left: 35px;
+    margin: 8px;
+}
+
+@media (max-width: 480px){
+    .logo{
+        width: 30px;
+    }
+}
+
+
+
+
+
+
+
